@@ -60,7 +60,7 @@ $moto = new Moto ('Honda', 'CB 1000', 2026, 300);
                     Cilindradas: <?= $moto->getCilindradas() ?>
                 </p>
                 <p class="preco">
-                    Diária: R$  <?= number_format($moto->calcularDiaria(), 2, ',', '.') ?>
+                    Diária: R$<?= number_format($moto->calcularDiaria(), 2, ',', '.') ?>
                 </p>
             </article>
         </section>
